@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navigation_nav_links",
+  "info": {
+    "displayName": "NavLink",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": false
+    },
+    "sublabel": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

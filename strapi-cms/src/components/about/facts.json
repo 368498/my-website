@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_facts",
+  "info": {
+    "displayName": "Facts",
+    "icon": "lightbulb"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
