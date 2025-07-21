@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_navigation_links",
+  "info": {
+    "displayName": "links",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "component": "navigation.nav-link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
