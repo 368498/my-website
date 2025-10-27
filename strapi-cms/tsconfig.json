@@ -16,13 +16,10 @@
     "rootDir": "."
   },
   "include": [
-    // Include root files
+    // Include root files, ts files, js files and JSON
     "./",
-    // Include all ts files
     "./**/*.ts",
-    // Include all js files
     "./**/*.js",
-    // Force the JSON files in the src folder to be included
     "src/**/*.json"
   ],
 
@@ -33,11 +30,9 @@
     ".cache/",
     ".tmp/",
 
-    // Do not include admin files in the server compilation
+    // Ignore admin files 
     "src/admin/",
-    // Do not include test files
     "**/*.test.*",
-    // Do not include plugins in the server compilation
     "src/plugins/**"
   ]
 }
